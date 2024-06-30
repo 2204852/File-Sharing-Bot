@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>THE CID KAGENOU</a>\n○ Language : <code>Python3</code>\n○ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ Source Code : <a href='https://github.com/CodeXBotz/File-Sharing-Bot'>Click here</a>\n○ Channel : @loveflopesdual\n○ Support Group : @THECIDKAGENOUSUPPORT</b>",
+            text = f"<b>🤖 ᴍʏ ɴᴀᴍᴇ :</b> <a href='https://t.me/Anime_all_file_store_bot'>ᵀᴴᴱ ᶜᴵᴰ ᴬᴺᴵᴹᴱ</a> \n<b>📝 ʟᴀɴɢᴜᴀɢᴇ :</b> <a href='https://python.org'>ᴾʸᵗʰᵒⁿ 3</a> \n<b>📚 ʟɪʙʀᴀʀʏ :</b> <a href='https://pyrogram.org'>ᴾʸʳᵒᵍʳᵃᵐ {version}</a> \n<b>🚀 ꜱᴇʀᴠᴇʀ :</b> <a href='https://heroku.com'>ᴴᵉʳᵒᵏᵘ</a> \n<b>📢 ᴄʜᴀɴɴᴇʟ :</b> <a href='https://t.me/THECIDANIME'>ᵀᴴᴱᶜᴵᴰᴬᴺᴵᴹᴱ</a> \n<b>🧑‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ :</b> <a href='tg://user?id={OWNER_ID}'>ᵀᴴᴱᶜᴵᴰᴬᴺᴵᴹᴱ</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
